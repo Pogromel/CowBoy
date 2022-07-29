@@ -5,8 +5,12 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
+    [SerializeField]
+    private float slopeCheckDistance;
+
     private Rigidbody2D rb2d;
     private Animator animate;
+    private Vector2 colliderSize;
 
     private float MoveSpeed;
     private float JumpForce;
@@ -15,14 +19,16 @@ public class PlayerController : MonoBehaviour
     private float moveVertical;
     private bool faceingRight = true;
 
+    private CapsuleCollider2D cc;
+
     // Start is called before the first frame update
     void Start()
     {
         rb2d = gameObject.GetComponent<Rigidbody2D>();
         animate = gameObject.GetComponent<Animator>();
 
-        MoveSpeed = 0.5f;
-        JumpForce = 1f;
+        MoveSpeed = 1.5f;
+        JumpForce = 40f;
         isjumping = false;
     }
 
@@ -55,6 +61,8 @@ public class PlayerController : MonoBehaviour
         {
             rb2d.AddForce(new Vector2(0f, moveVertical * JumpForce), ForceMode2D.Impulse);
         }
+
+        SlopeCheck();
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -65,7 +73,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Platform")
         {
@@ -79,6 +87,29 @@ public class PlayerController : MonoBehaviour
         Vector2 currentScale = transform.localScale;
         currentScale.x *= -1;
         transform.localScale = currentScale;
+    }
+
+    private void start()
+    {
+        rb2d = GetComponent<Rigidbody2D>();
+        cc = GetComponent<CapsuleCollider2D>();
+
+        colliderSize = cc.size;
+    }
+
+    private void SlopeCheck()
+    {
+        Vector2 checkPos = transform.position - new Vector3(0.0f, colliderSize.y / 2);
+    }
+
+    private void SlopeCheckHorizontal(Vector2 checkPos)
+    {
+
+    }
+
+    private void SlopeCheckVertical(Vector2 checkPos)
+    {
+        RaycastHit2D hit = Physics2D.Raycast(checkPos, Vector2.down, slopeCheckDistance, whatIsGround);
     }
 
 }

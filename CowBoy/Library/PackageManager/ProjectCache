@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637929184071093182
-    m_Hash: 2488401325
+      ticks: 637937654849857938
+    m_Hash: 2546610655
   m_LockFileStatus:
     m_FilePath: D:/Games/CowBoy/CowBoy/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637929184670317506
-    m_Hash: 301391453
+      ticks: 637937654850855636
+    m_Hash: 3436928162
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -45,9 +45,81 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.2.3-preview
+    - 1.2.4-preview
+    - 1.2.6
+    - 1.2.7
+    - 1.2.9
+    - 1.2.11
+    - 1.2.15
+    - 1.2.16
+    - 1.2.17-preview.3
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.9
+    - 1.5.7
+    - 1.6.0
+    - 1.7.1
+    - 1.8.0
+    - 1.9.0
+    - 1.10.2
+    - 1.11.2
+    - 1.12.5
+    - 1.13.5
+    - 1.14.1
+    - 1.14.4
+    - 1.14.7
+    - 1.14.9
+    - 1.14.12
+    - 1.14.13
+    - 1.14.15
+    - 1.14.16
+    - 1.14.17
+    - 1.14.18
+    - 1.15.1
+    - 1.15.4
+    - 1.15.7
+    - 1.15.9
+    - 1.15.12
+    - 1.15.13
+    - 1.15.15
+    - 1.15.16
+    - 1.15.17
     - 1.15.18
+    - 1.17.0
+    - 1.17.1
+    - 1.17.2
+    - 2.0.0-preview.6
+    - 2.0.0-preview.8
+    - 2.0.0-preview.15
+    - 2.0.0-preview.17
+    - 2.0.0-preview.20
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.1.0-preview.3
+    - 2.1.0-preview.5
+    - 2.1.0-preview.6
     compatible:
     - 1.15.18
+    - 1.17.0
+    - 1.17.1
+    - 1.17.2
+    - 2.0.0-preview.6
+    - 2.0.0-preview.8
+    - 2.0.0-preview.15
+    - 2.0.0-preview.17
+    - 2.0.0-preview.20
+    - 2.0.0-preview.21
+    - 2.0.0-preview.22
+    - 2.1.0-preview.3
+    - 2.1.0-preview.5
+    - 2.1.0-preview.6
     verified: 1.15.18
   dependencies:
   - name: com.unity.services.core
@@ -84,7 +156,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637888962690000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -200,6 +272,102 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
+- packageId: com.unity.feature.cinematic@1.0.0
+  testable: 0
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 2
+  resolvedPath: D:\Games\CowBoy\CowBoy\Library\PackageCache\com.unity.feature.cinematic@1.0.0
+  assetPath: Packages/com.unity.feature.cinematic
+  name: com.unity.feature.cinematic
+  displayName: Cinematic Studio
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: feature
+  description: Create films, TV shows, and other animated linear content. Organize
+    and assemble your assets in structured sequences. Automate complex camera movements.
+    Export data for round-trip and review, and output your final cut. Work with common
+    film industry formats.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies:
+  - name: com.unity.timeline
+    version: default
+  - name: com.unity.sequences
+    version: default
+  - name: com.unity.formats.fbx
+    version: default
+  - name: com.unity.formats.alembic
+    version: default
+  - name: com.unity.cinemachine
+    version: default
+  - name: com.unity.recorder
+    version: default
+  resolvedDependencies:
+  - name: com.unity.timeline
+    version: 1.6.4
+  - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.sequences
+    version: 1.0.4
+  - name: com.unity.recorder
+    version: 3.0.3
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.formats.fbx
+    version: 4.1.2
+  - name: com.autodesk.fbx
+    version: 4.1.1
+  - name: com.unity.formats.alembic
+    version: 2.2.2
+  - name: com.unity.modules.cloth
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.cinemachine
+    version: 2.8.6
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 1.0.0
+    nextVersion: 
 - packageId: com.unity.ide.rider@3.0.15
   testable: 0
   isDirectDependency: 1
@@ -222,6 +390,36 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.6
+    - 1.0.8
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2-preview
+    - 1.1.2-preview.2
+    - 1.1.3-preview.1
+    - 1.1.4-preview
+    - 1.1.4
+    - 1.2.0-preview
+    - 1.2.1
+    - 2.0.0-preview
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.5
+    - 2.0.7
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.7
+    - 3.0.9
+    - 3.0.10
+    - 3.0.12
+    - 3.0.13
+    - 3.0.14
     - 3.0.15
     compatible:
     - 3.0.15
@@ -242,7 +440,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637914298700000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -275,6 +473,24 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.9
+    - 1.0.10
+    - 1.0.11
+    - 2.0.0
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.5
+    - 2.0.7
+    - 2.0.8
+    - 2.0.9
+    - 2.0.11
+    - 2.0.12
+    - 2.0.14
+    - 2.0.15
     - 2.0.16
     compatible:
     - 2.0.16
@@ -301,7 +517,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637914298680000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -334,6 +550,18 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.7
+    - 1.1.0
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
     - 1.2.5
     compatible:
     - 1.2.5
@@ -350,7 +578,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637800255360000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -381,9 +609,47 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.0.4-preview
+    - 0.0.29-preview
+    - 1.0.0
+    - 1.0.7
+    - 1.0.9
+    - 1.0.11
+    - 1.0.12
+    - 1.0.13
+    - 1.0.14
+    - 1.0.16
+    - 1.0.17
+    - 1.0.18
+    - 1.1.0
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3
+    - 1.1.5
+    - 1.1.8
+    - 1.1.9
+    - 1.1.11
+    - 1.1.13
+    - 1.1.14
+    - 1.1.16
+    - 1.1.18
+    - 1.1.19
+    - 1.1.20
+    - 1.1.22
+    - 1.1.24
+    - 1.1.26
+    - 1.1.27
+    - 1.1.29
+    - 1.1.30
     - 1.1.31
+    - 2.0.1-exp.1
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     compatible:
     - 1.1.31
+    - 2.0.1-exp.1
+    - 2.0.1-pre.12
+    - 2.0.1-pre.18
     verified: 1.1.31
   dependencies:
   - name: com.unity.ext.nunit
@@ -411,7 +677,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637804266210000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -461,9 +727,95 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.2
+    - 1.0.21
+    - 1.0.23
+    - 1.0.25
+    - 1.0.26
+    - 1.1.0
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.3.0-preview
+    - 1.3.0
+    - 1.4.0-preview.1b
+    - 1.4.0-preview.2a
+    - 1.4.0-preview.3a
+    - 1.4.0
+    - 1.4.1-preview.1
+    - 1.4.1
+    - 1.5.0-preview.1
+    - 1.5.0-preview.2
+    - 1.5.0-preview.3
+    - 1.5.0-preview.4
+    - 1.5.0-preview.5
+    - 1.5.0-preview.6
+    - 1.5.0-preview.7
+    - 1.5.0-preview.8
+    - 1.5.0-preview.10
+    - 1.5.0-preview.11
+    - 1.5.0-preview.12
+    - 1.5.0-preview.13
+    - 1.5.0-preview.14
+    - 1.5.0
+    - 1.5.1
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6
+    - 1.6.0-preview.1
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.1
+    - 2.1.0-preview.1
+    - 2.1.0-preview.2
+    - 2.1.0-preview.3
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0-preview.7
+    - 2.1.0-preview.8
+    - 2.1.0-preview.10
+    - 2.1.0-preview.11
+    - 2.1.0-preview.12
+    - 2.1.0-preview.13
+    - 2.1.0-preview.14
+    - 2.1.0
+    - 2.1.1
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.2.0-preview.1
+    - 2.2.0-preview.2
+    - 2.2.0-preview.3
+    - 3.0.0-preview.1
+    - 3.0.0-preview.3
+    - 3.0.0-preview.4
+    - 3.0.0-preview.5
+    - 3.0.0-preview.7
+    - 3.0.0-preview.8
+    - 3.0.0-preview.10
+    - 3.0.0-preview.11
+    - 3.0.0-preview.12
+    - 3.0.0-preview.13
+    - 3.0.0-preview.14
+    - 3.0.0
+    - 3.0.1
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
     - 3.0.6
+    - 3.2.0-pre.1
+    - 3.2.0-pre.2
+    - 3.2.0-pre.3
+    - 4.0.0-pre.1
     compatible:
     - 3.0.6
+    - 3.2.0-pre.1
+    - 3.2.0-pre.2
+    - 3.2.0-pre.3
     verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
@@ -490,7 +842,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637547111200000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -522,9 +874,84 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    - 1.2.6
+    - 1.2.7
+    - 1.2.9
+    - 1.2.10
+    - 1.2.11
+    - 1.2.12
+    - 1.2.13
+    - 1.2.14
+    - 1.2.15
+    - 1.2.16
+    - 1.2.17
+    - 1.2.18
+    - 1.3.0-preview.2
+    - 1.3.0-preview.3
+    - 1.3.0-preview.5
+    - 1.3.0-preview.6
+    - 1.3.0-preview.7
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0-preview.3
+    - 1.4.0-preview.5
+    - 1.4.0-preview.6
+    - 1.4.0-preview.7
+    - 1.4.0
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.5.0-pre.2
+    - 1.5.0-preview.1
+    - 1.5.0-preview.2
+    - 1.5.0-preview.3
+    - 1.5.0-preview.4
+    - 1.5.0-preview.5
+    - 1.5.1-pre.1
+    - 1.5.1-pre.2
+    - 1.5.1-pre.3
+    - 1.5.2
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6
+    - 1.5.7
+    - 1.6.0-pre.1
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0-pre.5
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
     - 1.6.4
+    - 1.7.0-pre.1
+    - 1.7.0-pre.2
+    - 1.7.0
+    - 1.7.1
     compatible:
     - 1.6.4
+    - 1.7.0-pre.1
+    - 1.7.0-pre.2
+    - 1.7.0
+    - 1.7.1
     verified: 1.6.4
   dependencies:
   - name: com.unity.modules.director
@@ -559,7 +986,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637789039180000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -646,7 +1073,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: tool
+  type: 
   description: 'Visual scripting is a workflow that uses visual, node-based graphs
     to design behaviors rather than write lines of C# script.
 
@@ -663,7 +1090,22 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.5.0
+    - 1.5.1-pre.3
+    - 1.5.1-pre.5
+    - 1.5.1
+    - 1.5.2
+    - 1.6.0-pre.3
+    - 1.6.0
+    - 1.6.1
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.5
+    - 1.7.6
+    - 1.7.7
     - 1.7.8
+    - 1.8.0-pre.1
     compatible:
     - 1.7.8
     verified: 1.7.8
@@ -691,7 +1133,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637878097330000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -2463,9 +2905,18 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.1.5-preview
+    - 0.1.6-preview
+    - 0.1.9-preview
+    - 1.0.0
+    - 1.0.5
     - 1.0.6
+    - 2.0.2
+    - 2.0.3
     compatible:
     - 1.0.6
+    - 2.0.2
+    - 2.0.3
     verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
@@ -2482,7 +2933,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637429759280000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -2492,6 +2943,539 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.6
+    nextVersion: 
+- packageId: com.unity.sequences@1.0.4
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.4
+  source: 1
+  resolvedPath: D:\Games\CowBoy\CowBoy\Library\PackageCache\com.unity.sequences@1.0.4
+  assetPath: Packages/com.unity.sequences
+  name: com.unity.sequences
+  displayName: Sequences
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Efficiently create movies, game cinematics or any other linear content.
+
+    Organize
+    your project''s editorial structure and your creative content, assemble the elements
+    for easy authoring and collaboration, and try out new ideas in a non-destructive
+    way.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0-pre.4
+    - 1.0.0-pre.5
+    - 1.0.0-pre.6
+    - 1.0.0
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.0
+    - 2.0.0-pre.1
+    - 2.0.0-pre.2
+    compatible:
+    - 1.0.4
+    - 1.1.0-pre.1
+    - 1.1.0-pre.2
+    - 1.1.0
+    verified: 1.0.4
+  dependencies:
+  - name: com.unity.timeline
+    version: 1.5.2
+  - name: com.unity.recorder
+    version: 2.5.5
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.timeline
+    version: 1.6.4
+  - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.recorder
+    version: 3.0.3
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637756828920000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.sequences.git
+    revision: a7b83c004a80a4c154a2fa918a43d8d2c0e90636
+    path: 
+  unityLifecycle:
+    version: 1.0.4
+    nextVersion: 
+- packageId: com.unity.formats.fbx@4.1.2
+  testable: 0
+  isDirectDependency: 0
+  version: 4.1.2
+  source: 1
+  resolvedPath: D:\Games\CowBoy\CowBoy\Library\PackageCache\com.unity.formats.fbx@4.1.2
+  assetPath: Packages/com.unity.formats.fbx
+  name: com.unity.formats.fbx
+  displayName: FBX Exporter
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "The Unity FBX Exporter package makes it easy to send geometry and
+    animation to any application that supports the FBX format and send them back
+    to Unity with minimal effort.\n\nIn particular, this round-trip workflow enables
+    you to export Unity Scenes to FBX files, import them into Autodesk\xAE Maya\xAE,
+    Autodesk\xAE Maya LT\u2122, or Autodesk\xAE 3ds Max\xAE using an artist-friendly
+    interface, export Unity-ready FBX geometry and animation, and safely merge your
+    changes back into those Assets to continue your work in Unity."
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 2.0.1-preview.2
+    - 2.0.1-preview.3
+    - 2.0.1-preview.4
+    - 2.0.1-preview.5
+    - 2.0.1-preview.11
+    - 2.0.2-preview.1
+    - 2.0.3-preview.3
+    - 3.0.0-preview.2
+    - 3.0.1-preview.2
+    - 3.1.0-preview.1
+    - 3.2.0-preview.2
+    - 3.2.1-preview.2
+    - 4.0.0-pre.1
+    - 4.0.0-pre.4
+    - 4.0.1
+    - 4.1.0-pre.2
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.2.0-pre.1
+    compatible:
+    - 4.1.2
+    - 4.2.0-pre.1
+    verified: 4.1.2
+  dependencies:
+  - name: com.unity.timeline
+    version: 1.5.2
+  - name: com.autodesk.fbx
+    version: 4.1.1
+  resolvedDependencies:
+  - name: com.unity.timeline
+    version: 1.6.4
+  - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.autodesk.fbx
+    version: 4.1.1
+  keywords:
+  - fbx
+  - animation
+  - modeling
+  - maya
+  - max
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637733605130000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.formats.fbx.git
+    revision: 2daae3674ab93a799fbb71611abb1440e5d0e527
+    path: 
+  unityLifecycle:
+    version: 4.1.2
+    nextVersion: 
+- packageId: com.unity.formats.alembic@2.2.2
+  testable: 0
+  isDirectDependency: 0
+  version: 2.2.2
+  source: 1
+  resolvedPath: D:\Games\CowBoy\CowBoy\Library\PackageCache\com.unity.formats.alembic@2.2.2
+  assetPath: Packages/com.unity.formats.alembic
+  name: com.unity.formats.alembic
+  displayName: Alembic
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Import and export Alembic files (.abc), record and stream animations
+    in the Alembic format directly in Unity.
+
+    NOTE: Supported build platforms:
+    only Windows 64, MacOS X, Linux 64, and Stadia.
+
+
+    The Alembic format is commonly
+    used in animation to transfer facial, cloth, and other simulation between applications
+    in the form of baked data.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.1.2-preview
+    - 1.0.0-preview.2
+    - 1.0.0-preview.7
+    - 1.0.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 1.0.4
+    - 1.0.5
+    - 1.0.6
+    - 1.0.7
+    - 2.0.0-preview.1
+    - 2.0.1-preview.1
+    - 2.1.0-preview.3
+    - 2.1.1-pre.1
+    - 2.1.2
+    - 2.1.3
+    - 2.2.0-exp.1
+    - 2.2.0-exp.2
+    - 2.2.0-pre.3
+    - 2.2.0-pre.4
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
+    - 2.3.0-pre.1
+    - 2.3.0-pre.2
+    - 2.3.0-pre.3
+    - 2.3.0
+    compatible:
+    - 2.2.2
+    - 2.3.0-pre.1
+    - 2.3.0-pre.2
+    - 2.3.0-pre.3
+    - 2.3.0
+    verified: 2.2.2
+  dependencies:
+  - name: com.unity.timeline
+    version: 1.0.0
+  - name: com.unity.modules.cloth
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.timeline
+    version: 1.6.4
+  - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  - name: com.unity.modules.cloth
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  keywords:
+  - alembic
+  - abc
+  - animation
+  - facial
+  - cloth
+  - simulation
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637660953620000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/com.unity.formats.alembic.git
+    revision: 4862c73a13ae0cd4ec3489e4356301d0b3c75c2a
+    path: 
+  unityLifecycle:
+    version: 2.2.2
+    nextVersion: 
+- packageId: com.unity.cinemachine@2.8.6
+  testable: 0
+  isDirectDependency: 0
+  version: 2.8.6
+  source: 1
+  resolvedPath: D:\Games\CowBoy\CowBoy\Library\PackageCache\com.unity.cinemachine@2.8.6
+  assetPath: Packages/com.unity.cinemachine
+  name: com.unity.cinemachine
+  displayName: Cinemachine
+  author:
+    name: 
+    email: 
+    url: 
+  category: cinematography
+  type: 
+  description: "Smart camera tools for passionate creators. \n\nNew starting from
+    2.7.1: Are you looking for the Cinemachine menu? It has moved to the GameObject
+    menu.\n\nIMPORTANT NOTE: If you are upgrading from the legacy Asset Store version
+    of Cinemachine, delete the Cinemachine asset from your project BEFORE installing
+    this version from the Package Manager."
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 2.1.11-beta.1
+    - 2.1.12
+    - 2.1.13
+    - 2.2.0
+    - 2.2.7
+    - 2.2.8
+    - 2.2.9
+    - 2.2.10-preview.3
+    - 2.2.10-preview.4
+    - 2.3.1
+    - 2.3.3
+    - 2.3.4
+    - 2.3.5-preview.3
+    - 2.4.0-preview.3
+    - 2.4.0-preview.4
+    - 2.4.0-preview.6
+    - 2.4.0-preview.7
+    - 2.4.0-preview.8
+    - 2.4.0-preview.9
+    - 2.4.0-preview.10
+    - 2.4.0
+    - 2.5.0
+    - 2.6.0-preview.2
+    - 2.6.0-preview.3
+    - 2.6.0-preview.5
+    - 2.6.0-preview.8
+    - 2.6.0
+    - 2.6.1-preview.6
+    - 2.6.1
+    - 2.6.2-preview.1
+    - 2.6.2
+    - 2.6.3-preview.2
+    - 2.6.3
+    - 2.6.4
+    - 2.6.5
+    - 2.6.9
+    - 2.6.10
+    - 2.6.11
+    - 2.6.14
+    - 2.6.15
+    - 2.7.1
+    - 2.7.2
+    - 2.7.3
+    - 2.7.4
+    - 2.7.5
+    - 2.7.8
+    - 2.7.9
+    - 2.8.0-exp.1
+    - 2.8.0-exp.2
+    - 2.8.0-pre.1
+    - 2.8.0
+    - 2.8.1
+    - 2.8.2
+    - 2.8.3
+    - 2.8.4
+    - 2.8.6
+    - 2.9.0-pre.1
+    - 2.9.0-pre.6
+    compatible:
+    - 2.8.6
+    - 2.9.0-pre.1
+    - 2.9.0-pre.6
+    verified: 2.8.6
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - camera
+  - follow
+  - rig
+  - fps
+  - cinematography
+  - aim
+  - orbit
+  - cutscene
+  - cinematic
+  - collision
+  - freelook
+  - cinemachine
+  - compose
+  - composition
+  - dolly
+  - track
+  - clearshot
+  - noise
+  - framing
+  - handheld
+  - lens
+  - impulse
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637891007790000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.cinemachine.git
+    revision: 5e26d3cd08865a98219c0d2d3a8cc689018dd75b
+    path: 
+  unityLifecycle:
+    version: 2.8.6
+    nextVersion: 
+- packageId: com.unity.recorder@3.0.3
+  testable: 0
+  isDirectDependency: 0
+  version: 3.0.3
+  source: 1
+  resolvedPath: D:\Games\CowBoy\CowBoy\Library\PackageCache\com.unity.recorder@3.0.3
+  assetPath: Packages/com.unity.recorder
+  name: com.unity.recorder
+  displayName: Recorder
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'The Recorder allows you to capture and save data from the Unity Editor
+    during Play mode: animations, videos, images, audio, arbitrary output variables
+    (AOVs), and more.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 2.0.0-preview.6
+    - 2.0.1-preview.1
+    - 2.0.2-preview.3
+    - 2.0.3-preview.1
+    - 2.1.0-preview.1
+    - 2.2.0-preview.4
+    - 2.3.0-preview.3
+    - 2.4.0-preview.1
+    - 2.5.0-pre.1
+    - 2.5.2
+    - 2.5.4
+    - 2.5.5
+    - 2.5.7
+    - 2.6.0-exp.3
+    - 2.6.0-exp.4
+    - 3.0.0-pre.1
+    - 3.0.0-pre.2
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    - 4.0.0-pre.4
+    - 4.0.0-pre.5
+    compatible:
+    - 3.0.3
+    - 4.0.0-pre.1
+    - 4.0.0-pre.2
+    - 4.0.0-pre.3
+    verified: 3.0.3
+  dependencies:
+  - name: com.unity.timeline
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.timeline
+    version: 1.6.4
+  - name: com.unity.modules.director
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.particlesystem
+    version: 1.0.0
+  keywords:
+  - unity
+  - recorder
+  - recording
+  - capture
+  - video
+  - animation
+  - clip
+  - images
+  - AOV
+  - render
+  - pass
+  - layer
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637726685330000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.recorder.git
+    revision: 52d2b7e77e6832f279e4de2172226475c5465729
+    path: 
+  unityLifecycle:
+    version: 3.0.3
     nextVersion: 
 - packageId: com.unity.2d.animation@7.0.6
   testable: 0
@@ -2514,7 +3498,100 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.15-preview.1
+    - 1.0.15-preview.2
+    - 1.0.15-preview.3
+    - 1.0.15-preview.4
+    - 1.0.15-preview.5
+    - 1.0.16-preview
+    - 1.0.16-preview.1
+    - 1.0.16-preview.2
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0-preview.3
+    - 2.1.0-preview.1
+    - 2.1.0-preview.2
+    - 2.1.0-preview.4
+    - 2.1.0-preview.5
+    - 2.1.0-preview.7
+    - 2.2.0-preview.1
+    - 2.2.0-preview.4
+    - 2.2.0-preview.5
+    - 2.2.1-preview.1
+    - 2.2.1-preview.2
+    - 3.0.2
+    - 3.0.3
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.8
+    - 3.1.0
+    - 3.1.1
+    - 3.2.1
+    - 3.2.2
+    - 3.2.3
+    - 3.2.4
+    - 3.2.5
+    - 3.2.6
+    - 3.2.9
+    - 3.2.10
+    - 3.2.11
+    - 3.2.13
+    - 3.2.14
+    - 3.2.15
+    - 3.2.16
+    - 3.2.17
+    - 3.2.18
+    - 4.0.0
+    - 4.0.1
+    - 4.1.0
+    - 4.1.1
+    - 4.2.1
+    - 4.2.2
+    - 4.2.3
+    - 4.2.4
+    - 4.2.5
+    - 4.2.6
+    - 4.2.8
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.0.3
+    - 5.0.4
+    - 5.0.5
+    - 5.0.6
+    - 5.0.7
+    - 5.0.8
+    - 5.0.9
+    - 5.0.10
+    - 5.1.0
+    - 5.1.1
+    - 5.2.0
+    - 5.2.1
+    - 5.2.3
+    - 6.0.0-pre.1
+    - 6.0.0-pre.2
+    - 6.0.1
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    - 6.0.7
+    - 7.0.0-pre.2
+    - 7.0.0-pre.3
+    - 7.0.0
+    - 7.0.1
+    - 7.0.2
+    - 7.0.3
+    - 7.0.4
+    - 7.0.5
     - 7.0.6
+    - 8.0.0-pre.3
+    - 8.0.0-pre.4
+    - 8.0.0
+    - 8.0.1
+    - 8.0.2
+    - 9.0.0-pre.1
+    - 9.0.0-pre.3
     compatible:
     - 7.0.6
     verified: 7.0.6
@@ -2560,7 +3637,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637892785830000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -2585,7 +3662,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: tool
+  type: 
   description: 'The 2D Pixel Perfect package contains the Pixel Perfect Camera component
     which ensures your pixel art remains crisp and clear at different resolutions,
     and stable in motion.
@@ -2600,6 +3677,20 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview
+    - 1.0.1-preview
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.1.0
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 4.0.0
+    - 4.0.1
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0
     - 5.0.1
     compatible:
     - 5.0.1
@@ -2620,7 +3711,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637637493430000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -2653,7 +3744,65 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.1
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.1.0-preview.1
+    - 1.1.0-preview.3
+    - 1.2.0-preview.1
+    - 1.2.0-preview.3
+    - 1.2.0-preview.4
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.7
+    - 2.1.0
+    - 2.1.3
+    - 2.1.4
+    - 2.1.5
+    - 2.1.6
+    - 2.1.8
+    - 2.1.9
+    - 2.1.10
+    - 2.1.11
+    - 3.0.0
+    - 3.1.1
+    - 3.1.3
+    - 3.1.4
+    - 3.1.5
+    - 3.1.6
+    - 3.1.7
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.1.3
+    - 4.2.0
+    - 4.3.0
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.1
+    - 5.0.3
+    - 5.0.4
+    - 5.0.6
+    - 6.0.0-pre.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
+    - 6.0.3
     - 6.0.4
+    - 7.0.0-pre.3
+    - 7.0.0-pre.4
+    - 7.0.0
+    - 7.0.1
+    - 8.0.0-pre.1
+    - 8.0.0-pre.3
     compatible:
     - 6.0.4
     verified: 6.0.4
@@ -2700,7 +3849,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637901498510000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -2784,10 +3933,81 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.10-preview.2
+    - 1.0.11-preview
+    - 1.0.12-preview
+    - 1.0.12-preview.1
+    - 1.0.14-preview.2
+    - 2.0.0-preview.4
+    - 2.0.0-preview.5
+    - 2.0.0-preview.7
+    - 2.0.0-preview.8
+    - 2.0.0-preview.9
+    - 2.1.0-preview.2
+    - 2.1.0-preview.6
+    - 2.1.0-preview.7
+    - 2.1.0-preview.10
+    - 2.1.0-preview.11
+    - 3.0.1
+    - 3.0.2
+    - 3.0.4
+    - 3.0.5
+    - 3.0.6
+    - 3.0.7
+    - 3.0.8
+    - 3.0.9
+    - 3.0.10
+    - 3.0.11
+    - 3.0.12
+    - 3.0.13
+    - 3.0.14
+    - 3.0.15
+    - 3.0.16
+    - 3.0.17
+    - 3.0.18
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.1.0
+    - 4.1.1
+    - 4.1.2
+    - 4.1.3
+    - 4.1.4
+    - 4.1.5
+    - 5.0.0
+    - 5.0.1
+    - 5.0.2
+    - 5.1.0
+    - 5.1.1
+    - 5.1.2
+    - 5.1.3
+    - 5.1.4
+    - 5.1.5
+    - 5.1.6
+    - 5.1.7
+    - 5.2.0
+    - 5.3.0
+    - 6.0.0-pre.1
+    - 6.0.0-pre.2
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
+    - 7.0.0-pre.2
+    - 7.0.0-pre.3
+    - 7.0.0
+    - 7.0.2
+    - 7.0.3
     - 7.0.4
+    - 7.0.5
+    - 8.0.0-pre.4
+    - 8.0.0-pre.5
+    - 8.0.0
+    - 9.0.0-pre.1
     compatible:
     - 7.0.4
-    verified: 7.0.4
+    - 7.0.5
+    verified: 7.0.5
   dependencies:
   - name: com.unity.mathematics
     version: 1.1.0
@@ -2836,7 +4056,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637817447990000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -2931,7 +4151,27 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.5.0-preview
+    - 1.6.0-preview.1
+    - 1.6.1-preview
+    - 1.6.2-preview
+    - 1.6.3-preview
+    - 1.6.4-preview
+    - 1.7.0-preview
+    - 1.8.0-preview
+    - 1.8.1-preview
+    - 1.8.2-preview
+    - 1.8.3-preview
+    - 2.0.0-pre.1
+    - 2.0.0-pre.2
+    - 2.0.0
+    - 2.2.0
+    - 2.2.1
+    - 2.2.2
     - 2.2.3
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
     compatible:
     - 2.2.3
     verified: 2.2.3
@@ -2970,7 +4210,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637892785880000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3005,10 +4245,25 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.1
+    - 1.1.0-pre.7
+    - 1.1.0-pre.8
+    - 1.1.0-pre.9
+    - 1.1.0-pre.10
+    - 1.1.0-pre.11
+    - 1.1.0-pre.41
+    - 1.1.0-pre.69
+    - 1.2.0
+    - 1.3.1
+    - 1.3.2
     - 1.4.0
+    - 1.4.1
+    - 1.4.2
     compatible:
     - 1.4.0
-    verified: 1.4.0
+    - 1.4.1
+    - 1.4.2
+    verified: 1.4.2
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -3033,7 +4288,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637871962570000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3043,6 +4298,107 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.4.0
+    nextVersion: 
+- packageId: com.autodesk.fbx@4.1.1
+  testable: 0
+  isDirectDependency: 0
+  version: 4.1.1
+  source: 1
+  resolvedPath: D:\Games\CowBoy\CowBoy\Library\PackageCache\com.autodesk.fbx@4.1.1
+  assetPath: Packages/com.autodesk.fbx
+  name: com.autodesk.fbx
+  displayName: Autodesk FBX SDK for Unity
+  author:
+    name: Unity
+    email: 
+    url: 
+  category: 
+  type: 
+  description: "This package provides Unity C# bindings to the Autodesk\xAE FBX\xAE
+    SDK."
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 4.1.1
+    compatible:
+    - 4.1.1
+    verified: 4.1.1
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - fbx
+  - animation
+  - modeling
+  - maya
+  - max
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.autodesk.fbx.git
+    revision: b6cd1211ff8824752e3dcbf05f426bac266606a0
+    path: 
+  unityLifecycle:
+    version: 4.1.1
+    nextVersion: 
+- packageId: com.unity.settings-manager@1.0.3
+  testable: 0
+  isDirectDependency: 0
+  version: 1.0.3
+  source: 1
+  resolvedPath: D:\Games\CowBoy\CowBoy\Library\PackageCache\com.unity.settings-manager@1.0.3
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.3
+    compatible:
+    - 1.0.3
+    verified: 1.0.3
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 473664ccba1496294b741cf169740a5d54b3d0b6
+    path: 
+  unityLifecycle:
+    version: 1.0.3
     nextVersion: 
 - packageId: com.unity.mathematics@1.2.6
   testable: 0
@@ -3065,6 +4421,22 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
     - 1.2.6
     compatible:
     - 1.2.6
@@ -3082,7 +4454,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637841876140000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3114,7 +4486,42 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.9-preview.1
+    - 1.0.9-preview.2
+    - 1.0.10-preview
+    - 1.0.11-preview.1
+    - 1.1.0-preview.1
+    - 1.1.0-preview.2
+    - 1.2.0-preview.1
+    - 2.0.1
+    - 2.0.2
+    - 2.1.0
+    - 2.1.1
+    - 2.1.2
+    - 3.0.0
+    - 3.0.1
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 4.0.3
+    - 4.0.4
+    - 4.1.0
+    - 4.2.0
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0
+    - 6.0.0-pre.2
+    - 6.0.0-pre.3
+    - 6.0.0-pre.4
+    - 6.0.0
+    - 6.0.1
+    - 6.0.2
     - 6.0.3
+    - 7.0.0-pre.3
+    - 7.0.0-pre.4
+    - 7.0.0
+    - 8.0.0-pre.1
+    - 8.0.0-pre.2
     compatible:
     - 6.0.3
     verified: 6.0.3
@@ -3155,7 +4562,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637817447740000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3187,6 +4594,26 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.1
+    - 1.0.0-preview.4
+    - 2.0.1
+    - 2.0.2
+    - 2.0.3
+    - 2.0.4
+    - 2.0.5
+    - 2.0.6
+    - 2.1.0
+    - 2.1.1
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 4.0.0
+    - 4.0.1
+    - 4.0.2
+    - 5.0.0-pre.1
+    - 5.0.0-pre.2
+    - 5.0.0
+    - 5.0.1
     - 5.0.2
     compatible:
     - 5.0.2
@@ -3205,7 +4632,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637817447940000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3230,7 +4657,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: library
+  type: 
   description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
     synced to version 13.0.1.
 
@@ -3245,6 +4672,18 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    - 3.0.1
     - 3.0.2
     compatible:
     - 3.0.2
@@ -3261,7 +4700,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637846828220000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3293,9 +4732,128 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 0.2.4-preview.5
+    - 0.2.4-preview.7
+    - 0.2.4-preview.11
+    - 0.2.4-preview.12
+    - 0.2.4-preview.13
+    - 0.2.4-preview.14
+    - 0.2.4-preview.15
+    - 0.2.4-preview.16
+    - 0.2.4-preview.17
+    - 0.2.4-preview.18
+    - 0.2.4-preview.19
+    - 0.2.4-preview.20
+    - 0.2.4-preview.21
+    - 0.2.4-preview.22
+    - 0.2.4-preview.23
+    - 0.2.4-preview.24
+    - 0.2.4-preview.25
+    - 0.2.4-preview.30
+    - 0.2.4-preview.31
+    - 0.2.4-preview.33
+    - 0.2.4-preview.34
+    - 0.2.4-preview.37
+    - 0.2.4-preview.41
+    - 0.2.4-preview.45
+    - 0.2.4-preview.48
+    - 0.2.4-preview.50
+    - 1.1.0-preview.2
+    - 1.1.0-preview.3
+    - 1.1.0-preview.4
+    - 1.1.1
+    - 1.1.2
+    - 1.1.3-preview.3
+    - 1.2.0-preview.1
+    - 1.2.0-preview.5
+    - 1.2.0-preview.6
+    - 1.2.0-preview.8
+    - 1.2.0-preview.9
+    - 1.2.0-preview.10
+    - 1.2.0-preview.11
+    - 1.2.0-preview.12
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.3.0-preview.1
+    - 1.3.0-preview.2
+    - 1.3.0-preview.3
+    - 1.3.0-preview.4
+    - 1.3.0-preview.5
+    - 1.3.0-preview.6
+    - 1.3.0-preview.7
+    - 1.3.0-preview.8
+    - 1.3.0-preview.9
+    - 1.3.0-preview.10
+    - 1.3.0-preview.11
+    - 1.3.0-preview.12
+    - 1.3.0-preview.13
+    - 1.3.0
+    - 1.3.1
+    - 1.3.2
+    - 1.3.3
+    - 1.3.4
+    - 1.3.5
+    - 1.3.6
+    - 1.3.7
+    - 1.3.8
+    - 1.3.9
+    - 1.4.0-pre.1
+    - 1.4.0-preview.1
+    - 1.4.0-preview.2
+    - 1.4.0-preview.3
+    - 1.4.0-preview.4
+    - 1.4.0-preview.5
+    - 1.4.1-pre.1
+    - 1.4.1-pre.2
+    - 1.4.1
+    - 1.4.2
+    - 1.4.3
+    - 1.4.4-preview.1
+    - 1.4.4-preview.2
+    - 1.4.4
+    - 1.4.5
+    - 1.4.6
+    - 1.4.7
+    - 1.4.8
+    - 1.4.9
+    - 1.4.11
+    - 1.5.0-pre.3
+    - 1.5.0-pre.4
+    - 1.5.0-pre.5
+    - 1.5.0
+    - 1.5.1
+    - 1.5.2
+    - 1.5.3
+    - 1.5.4
+    - 1.5.5
+    - 1.5.6-preview.1
+    - 1.5.6
+    - 1.6.0-pre.2
+    - 1.6.0-pre.3
+    - 1.6.0-pre.4
+    - 1.6.0
+    - 1.6.1
+    - 1.6.2
+    - 1.6.3
+    - 1.6.4
+    - 1.6.5
     - 1.6.6
+    - 1.7.0-pre.1
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.8.0-pre.1
     compatible:
     - 1.6.6
+    - 1.7.0-pre.1
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.8.0-pre.1
     verified: 1.6.6
   dependencies:
   - name: com.unity.mathematics
@@ -3313,7 +4871,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637902875830000000
   documentationUrl: 
   hasRepository: 1
   repository:
